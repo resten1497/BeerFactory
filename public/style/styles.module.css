@@ -1,0 +1,94 @@
+
+
+  .container{
+    padding: 0;
+    margin: 0;
+      box-sizing: border-box;
+    font-family: Jalnan;
+
+    background-color: #F5F5F5;
+    }
+
+  
+  .titleName{
+    font-family:Jalnan;
+    text-align: center;
+    font-size: 128px;
+    color: #EBA300;
+    
+  }
+
+ .content{
+  display: flex;
+  height: 45vh;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .Text{
+  text-align: center;
+  font-size: 2em ;
+
+ }
+ .InputStyle{
+  height: 70px;
+  width: 500px;
+  /* background-color: #EBA300;
+  color: #fff; */
+  border:0px;
+  box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.17);
+  border-radius: 10px;
+  font-family:Jalnan;
+  text-align: center;
+  font-size: 2em ;
+  
+ }
+ .InputStyle::placeholder{color: rgb(211, 211, 211);}
+ .InputStyle:focus {outline:none;}
+
+ .button{
+   width: 150px;
+   height: 50px;
+   border-radius: 10px;
+   border:0px;
+   cursor: pointer;
+   font-size: 1.8em ;
+   font-family:Jalnan;
+   color: white;
+   background-color: #EBA300;
+ }
+
+ .buttonCenter{
+  margin: 0 auto;
+  width: 100%;
+  height: 50px;
+  
+  text-align: center;
+
+ }
+
+ .footer{
+  position: absolute;
+
+  left: 0;
+
+  bottom: 0;
+
+  width: 100%;
+
+padding: 15px 0;
+
+text-align: center;
+
+color: #222;
+
+
+ }
+ @font-face {
+    font-family: "Jalnan";
+    src: url("../fonts/Jalnan.ttf")
+  }
