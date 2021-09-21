@@ -18,7 +18,6 @@ export default function Home() {
       alert("이름을 입력해주세요!")
     }
     else{
-
       Router.push({
           pathname:'/confirm',
           query:{userName:UserName},
@@ -31,17 +30,17 @@ export default function Home() {
 
       <main>
         <Header/>
-
+        
         <div className={styles.content}>
             <div className={styles.align}>
               <input className={styles.InputStyle} placeholder="등록할 이름을 입력해주세요" value={UserName}
               maxLength="10"  onChange={onChange}></input>
 
             </div>
-            
+            <button className={styles.button} value={UserName} onClick={onSubmitUsername}>다음</button>
         </div>
         <div className={styles.buttonCenter}>
-        <button className={styles.button} value={UserName} onClick={onSubmitUsername}>다음</button>
+      
         </div>
 
       </main>

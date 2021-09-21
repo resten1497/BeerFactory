@@ -13,8 +13,13 @@ export default function Home() {
       <main>
         <div className={styles.title}>
           <p className={styles.titleName}>맥주 공방</p>
-          <p>{router.query.userName}</p>
+          <p className={styles.userName}>{router.query.userName}님 반갑습니다.</p>
         </div>
+
+        <div>
+        
+        </div>
+
 
       </main>
 
